@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#"  onclick="mylink(this)">Click Here</a> <br>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 container-lg m-0">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.mabdullah.pk/cdn/shop/files/5_46047695-78d2-43cc-b45f-aa5f7fb09bd1.webp?v=1755838931&width=3840" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mobile 1</h5>
+        <p class="card-text"> <button type="button" class="btn btn-primary btn-sm" onclick="mybtn(this)">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://sparx.pk/cdn/shop/files/Neo15_13120a1b-9b12-4f88-940b-53a5cd6537ae.webp?v=1766410532&width=1080" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mobile 2</h5>
+        <p class="card-text"><button type="button" class="btn btn-primary btn-sm" onclick="mybtn(this)">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 ">
+      <img src="https://darlingretail.com/cdn/shop/files/iPhone_15_Pink_Pure_Back_iPhone_15_Pink_Pure_Front_2up_Screen__WWEN_cfd96ace-df87-4ab3-a96a-e8e9b13bb7b9_800x.jpg?v=1695104022" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mobile 3</h5>
+        <p class="card-text"><button type="button" class="btn btn-primary btn-sm" onclick="mybtn(this)">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<br>
+  <table class="table table-dark table-sm">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    <th scope="col">Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td><button class=" btn btn-primary" onclick="rowdlt(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+        <td><button class=" btn btn-primary" onclick="rowdlt(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <th scope="row" >3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+        <td><button class=" btn btn-primary" onclick="rowdlt(this)">Delete</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQS_aMhEbPyZg5vZO0cxHNkLozmUAAub-2IQ&s" alt="" onmouseover="firstimg(this)">
+
+
+    <script src="app.js"></script>
+</body>
+</html>
